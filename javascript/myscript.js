@@ -12,5 +12,9 @@ function mouse1()
 }
 
 function newpage() {
-  window.open("customer.html");
+  window.open("customer.html","_self");
+}
+function newpage1()
+{
+  window.open("restaurent.html","_self");
 }

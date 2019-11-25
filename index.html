@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  
-<style>
-  ::-webkit-scrollbar {
-            display: none;
-        }
-</style>
-	<title>welcome</title>
-	<meta charset="utf-8">
+
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <title>welcome</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -16,62 +17,69 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alatsi|Courgette&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
-   <script src="javascript/myscript.js"></script>
-  </head>
-<body>
-<div class="row backgroundimg">
-	
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link"  data-toggle="modal" data-target="#exampleModalCenter" href="#">Customer</a>
-  </li>
-  <li class="nav-item-1">
-  <h1>FoodShala</h1>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Restaurent</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">contact us</a>
-  </li>
-</ul>
-<div class="container">
-<h2>Delicious food recipes & Soups</h2> 
-<p>
-  Here, you all get the best dishes and delicious food than anywhere. we provide the platform to <br> make market your food and as well to buy as well  best dishes.  have the best food ever at our place. you never forget our service. so, without getting late just start connecting with us. we are happy to see our customers.
-</p> 
-<input type="submit" class="col-sm-2-1" name="more about" value="More About">
-<input type="submit" class="col-sm-2-2" name="more about" value="Learn More ">
-</div>
-</div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title"  id="exampleModalLongTitle">Login Required</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form">
-        <label>username:</label>
-        <input type="text" name="uname" id="input" onmousedown="mouse()"   placeholder=" username please!" required="all"; ><br>
-        <label>password:</label>
-        <input type="text" name="uname" id="input1" onmousedown="mouse1()" placeholder =" password please!" required="all";>
-      </form>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/myscript.js"></script>
+</head>
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">signup</button>
-        <button type="button" class="btn btn-primary" onclick="newpage()">Login</button>
+<body>
+  <div class="row backgroundimg">
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter" href="#">Customer</a>
+      </li>
+      <li class="nav-item-1">
+        <h1>FoodShala</h1>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter" href="#">Restaurent</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">contact us</a>
+      </li>
+    </ul>
+    <div class="container">
+      <h2>Delicious food recipes & Soups</h2>
+      <p>
+        Here, you all get the best dishes and delicious food than anywhere. we provide the platform to <br> make market
+        your food and as well to buy as well best dishes. have the best food ever at our place. you never forget our
+        service. so, without getting late just start connecting with us. we are happy to see our customers.
+      </p>
+      <input type="submit" class="col-sm-2-1" name="more about" value="More About">
+      <input type="submit" class="col-sm-2-2" name="more about" value="Learn More ">
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login Required</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form">
+            <label>username:</label>
+            <input type="text" name="uname" id="input" onmousedown="mouse()" placeholder=" username please!"
+              required="all" ;><br>
+            <label>password:</label>
+            <input type="text" name="uname" id="input1" onmousedown="mouse1()" placeholder=" password please!"
+              required="all" ;>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-primary" onclick="newpage1()" style="width: 120px;height: 35px;">restaurentlog</button>
+          <button type="button" class="btn btn-primary" onclick="newpage()" style="width: 110px;height: 35px;outline: lightblue;">customerlog</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </body>
+
 </html>
