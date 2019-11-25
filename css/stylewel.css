@@ -1,0 +1,208 @@
+
+*
+{
+	transition: all ease-in-out 1s;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+	width: 100%;
+	background-image: url("../img/food.18.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+}
+.headsec
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	
+}
+.headsec h1
+{
+	font-family: 'Special Elite', cursive;
+	font-size: 70px;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+.headsec h2
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10mm;
+	color: rgb(26, 26, 29);
+	margin-top: -5px;
+}
+.headsec h4{
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+	color: black;
+	font-weight: 600;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+#backhome
+{
+	width: 120px;
+	height: 40px;
+	border: 1px solid rgb(75, 136, 75);
+	background-color: rgb(75, 136, 75);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(8, 8, 8);
+	font-size: 19px;
+	letter-spacing: 0.2px;
+}
+
+.bigcover
+{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+    padding-left: 70px;
+    position: relative;
+}
+.coverbox
+{
+	width: 386px;
+	height: 326px;
+	border:2px solid #C5A46D;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+}
+.imgbox
+
+{
+	width: 378px;
+	height: 318px;
+	margin-left: 2px;
+	margin-top: 2px;
+
+	background:#000000;
+	cursor: pointer;
+
+}
+.imgbox .discription
+{
+	color: red;
+	text-align: center;
+	margin-top: -200px;
+    margin-left: 100px;
+    position: absolute;
+	
+}
+.coverbox #bcb
+{
+    width: 120px;
+    text-align: center;
+    background-color:#C5A46D;
+    border: 1px solid #C5A46D;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.coverbox .discription h3
+{
+	opacity: 0;
+}
+.coverbox:hover .discription h3
+{
+	opacity: 1;
+	transition:1s;
+	transform: scale(1.2);
+}
+.coverbox #bcb
+{
+    opacity: 0;
+}
+
+.coverbox:hover #bcb
+{
+    opacity: 1;
+	transition:1s;
+	transform: scale(1.2);
+}
+
+.coverbox:hover .imgbox img
+{
+	opacity: 0.4;
+	transform: scale(1.02);
+	transition: 1s;
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+}
+#showm
+ {
+
+	text-align: center;
+	color: red;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+	display: none;
+	width: 100%;
+	background-image: url("../img/food15.jpg");
+	padding-top: 30px;
+}
+.content img:hover
+{
+	cursor: pointer;
+	animation: img 1s linear infinite;
+
+}
+@keyframes img
+{
+	100%{
+		
+		transform: rotate(360deg);
+	
+	}
+
+}
+
+#main {
+
+	text-align: center;
+	position: relative;
+}
+
+#ban {
+	padding: 10px;
+	background: white;
+	height: auto;
+	position: relative;
+	border-radius: 13px;
+	box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+}
+
+#con {
+	position: relative;
+}
+
+th {
+	text-align: center;
+}
+
+table {
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+#footbut
+{
+	margin-left: 70px;
+	width: 88%;
+	height: 60px;
+	background-color:black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 600;
+	font-size: 2.5rem;
+	color: blanchedalmond;
+}
+ 

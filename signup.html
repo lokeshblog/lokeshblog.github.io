@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="css/l1.css">
+	<script src="javascript/scr.js"></script>
+	<script type="text/javascript">
+		function lokesh(obj)  
+		{
+			document.getElementById("vegi").onSelect()=konda(obj)
+			 {
+				
+				lokesh()
+
+			};
+			function lokesh()
+			{
+				if(obj.val==1)
+				{
+				
+				window.open("customer.html");
+				}
+				else
+				{
+				window.open("ccc.html");
+				}
+			}  
+		}
+	</script>
+
+</head>
+<body>
+<div id="login-box">
+	<div class="left-box">
+		<h1>Sign Up</h1>
+		<form>
+		<input type="text" name="username" placeholder="username"/>
+		<input type="email" name="email" placeholder="email"/><br><br>
+		<input type="radio" name="veg" value="1" id="vegi"  onclick="konda(this)"> Veg<br>
+		<input type="radio" name="veg" value="2" id="non-vegi" onclick="konda(this)"> Non-Veg
+	<input type="password" name="password" placeholder="password" id="password"/>
+	<input type="password" name="password" placeholder="confirm password" id="confirm_password" />
+	<input type="submit" name="signup-button" value="signup" onclick="lokesh(),validatePassword()">
+	</form>
+	</div>
+	<div class="right-box">
+		<span class="signinwith">sign in with social network</span>
+		<button class="social facebook"> login with facebook</button>
+		<button class="social twitter"> login with twitter</button>
+		<button class="social google"> login with google</button>
+	</div>
+</div>
+</body>
+</html>
